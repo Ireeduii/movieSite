@@ -5,7 +5,7 @@ import MovieCard from "@/components/mycomp/movieCard";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-[904px] overflow-scroll">
       <div className="flex gap-6 flex-wrap mx-2 my-2 ">
         <MovieCard
           title="Solo Leveling: ReAwakening"
@@ -29,6 +29,7 @@ export default function Home() {
           image="dogg.png
         "
         />
+
         <MovieCard
           title="The Order"
           rating={6.9}
