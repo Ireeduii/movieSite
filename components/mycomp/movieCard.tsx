@@ -15,7 +15,7 @@ type MovieCard = {
 
 const MovieCard = ({ title, rating, image }: MovieCard) => {
   return (
-    <Card className="w-[230px] bg-secondary p-0 overflow-hidden gap-2 cursor-pointer hover:bg-[#0000004D]">
+    <Card className="ml-2.5 w-[230px] bg-secondary p-0 overflow-hidden gap-2 cursor-pointer hover:bg-[#0000004D]">
       <CardContent className="p-0 ">
         <div className="bg-black">
           <img
@@ -28,12 +28,13 @@ const MovieCard = ({ title, rating, image }: MovieCard) => {
 
       <CardFooter className="flex flex-col items-start p-2">
         <CardDescription className="flex gap-2">
-          <p className="text-[14px] font-semibold">
-            ⭐ {rating}/<span className="text-[12px]">10</span>
+          <p className="text-[14px] font-semibold text-black">
+            ⭐ {rating}
+            <span className="text-[12px] text-gray-500">/10</span>
           </p>
         </CardDescription>
 
-        <CardTitle className="text-[18px]">{title}</CardTitle>
+        <CardTitle className="text-[18px] font-normal">{title}</CardTitle>
       </CardFooter>
     </Card>
   );
