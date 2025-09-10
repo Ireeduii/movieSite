@@ -21,7 +21,7 @@ const MovieCard = ({ title, rating, image }: MovieCard) => {
           <img
             src={image}
             alt=""
-            className="w-[230px] h-[340px] hover:opacity-70  "
+            className="w-[230px] h-[340px] hover:opacity-80 transition-opacity"
           />
         </div>
       </CardContent>

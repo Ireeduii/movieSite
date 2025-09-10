@@ -3,14 +3,14 @@ import MovieCard from "./movieCard";
 export const CardsFirst = () => {
   return (
     <div>
-      <h3 className="font-semibold text-[24px] mt-15 ml-6">Upcoming</h3>
+      <h3 className="font-semibold text-[24px] mt-15 ml-12">Upcoming</h3>
 
       <span className="ml-300 flex items-center gap-2 mt-[-25] mb-10 ">
         See more
         <img className="w-[10px] h-[10px]" src="icon1.png" />
       </span>
 
-      <div className="flex gap-6 flex-wrap mx-2 my-2 ">
+      <div className="flex justify-center items-center gap-6 flex-wrap mx-2 my-2 ">
         <MovieCard
           title="Solo Leveling: ReAwakening"
           rating={6.9}

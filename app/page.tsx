@@ -2,7 +2,7 @@
 // import { ModeToggle } from "@/components/ui/toggler";
 import {
   CardsFirst,
-  Header,
+  HomeCarousel,
   CardsSecond,
   CardsThird,
   Toggler,
@@ -11,9 +11,9 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <div className=" justify-center items-center">
       <Toggler></Toggler>
-      <Header></Header>
+      <HomeCarousel></HomeCarousel>
       <CardsFirst></CardsFirst>
       <CardsSecond></CardsSecond>
       <CardsThird></CardsThird>

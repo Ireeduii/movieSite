@@ -3,12 +3,12 @@ import MovieCard from "./movieCard";
 export const CardsThird = () => {
   return (
     <div>
-      <h3 className="font-semibold text-[24px] mt-15 ml-6 "> Top Rated </h3>
+      <h3 className="font-semibold text-[24px] mt-15 ml-10"> Top Rated </h3>
       <span className="ml-300 flex items-center gap-2 mt-[-25] mb-10 ">
         See more
         <img className="w-[10px] h-[10px]" src="icon1.png" />
       </span>
-      <div className="flex gap-6 flex-wrap mx-2  mt-10">
+      <div className="flex  justify-center items-center  gap-6 flex-wrap mx-2  mt-10">
         <MovieCard
           title="The Shawshank Redemption"
           rating={6.9}
