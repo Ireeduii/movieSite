@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardFooter,
   CardTitle,
-} from "../ui/card";
+} from "../ui/moviesCard";
 type MovieCard = {
   title: string;
   rating: number;
@@ -21,7 +21,7 @@ const MovieCard = ({ title, rating, image }: MovieCard) => {
           <img
             src={image}
             alt=""
-            className="w-[230px] h-[340px] hover:opacity-80 transition-opacity"
+            className="w-[230px] h-[340px] hover:opacity-80 transition-opacity "
           />
         </div>
       </CardContent>
