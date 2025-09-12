@@ -13,7 +13,7 @@ type MovieCard = {
   image: string;
 };
 
-const MovieCard = ({ title, rating, image }: MovieCard) => {
+export const MoviesCards = ({ title, rating, image }: MovieCard) => {
   return (
     <Card className="ml-2.5 w-[230px] bg-secondary p-0 overflow-hidden gap-2 cursor-pointer hover:bg-[#0000004D]">
       <CardContent className="p-0 ">
@@ -39,5 +39,3 @@ const MovieCard = ({ title, rating, image }: MovieCard) => {
     </Card>
   );
 };
-
-export default MovieCard;

@@ -38,7 +38,7 @@ export function GenreDropDown() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">Open</Button>
+        <Button variant="outline">Genre</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="" align="start">
         <DropdownMenuLabel className="text-2xl font-bold">
@@ -48,7 +48,7 @@ export function GenreDropDown() {
         <DropdownMenuSeparator />
         <DropdownMenuItem className="hover:!bg-transparent ">
           {GENRES.map((genre) => (
-            // <Link href="/genre">
+            // <Link key href="/genre">
             <Badge key={genre.name} variant="outline">
               {genre.name}
 
