@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel";
 
 export function MovieCarousel() {
-  const images = ["gladiator.jpg", "venom.webp", "wicked.jpg"];
+  const images = ["astro.jpg", "tanjiro.jpg", "naraka.jpg"];
 
   const [api, setApi] = React.useState<CarouselApi>();
   const [current, setCurrent] = React.useState(0);

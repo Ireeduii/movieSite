@@ -8,7 +8,7 @@ export const Navbar = () => {
     <header className="w-full">
       <div className="max-w-[1280px] flex justify-between m-auto items-center py-3">
         <div>
-          <img src="Logo.png" className="h-5" />
+          <img src="Logo.png" className="h-5 ml-20" />
         </div>
         <div className="flex gap-5">
           <GenreDropDown />

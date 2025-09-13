@@ -15,11 +15,11 @@ type MovieCard = {
 
 export const MoviesCards = ({ title, rating, image }: MovieCard) => {
   return (
-    <Card className="ml-2.5 w-[230px] bg-secondary p-0 overflow-hidden gap-2 cursor-pointer hover:bg-[#0000004D]">
-      <CardContent className="p-0 ">
-        <div className="bg-black">
+    <Card className="ml-2.5 w-[230px] bg-secondary p-0 overflow-hidden gap-2 cursor-pointer ">
+      <CardContent className="p-0">
+        <div>
           <img
-            src={image}
+            src={`https://image.tmdb.org/t/p/w500/${image}`}
             alt=""
             className="w-[230px] h-[340px] hover:opacity-80 transition-opacity "
           />
